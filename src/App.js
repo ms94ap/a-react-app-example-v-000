@@ -6,7 +6,7 @@ import TestComponent from './TestComponent'
 // Add your code own within the return statement
 
 class App extends Component {
-  render() { 
+  render() {
 
     return (
       <div className="App">
@@ -19,6 +19,8 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of of JSX.
         </p>
         <ExampleComponent />
+        <TestComponent/>
+        
 
       </div>
     );
